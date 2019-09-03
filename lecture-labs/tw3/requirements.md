@@ -2,7 +2,7 @@
 - Who are the stakeholders?<br />
     -photographers, editors, journalists
 - Who are the users?<br />
-    -photographers, editors, journalists,readers
+    -photographers, editors, journalists
 - What are the system requirements?<br />
     -disk storage, web interface, database
 - What are the functional requirements?<br />
@@ -11,7 +11,7 @@
 
 # Clarifying Questions (Done by Brad Schinker)
 
-- Stakeholders? <br/ >
+- Stakeholders? <br />
     -No clarification
 - Users <br/>
     -Readers of the article
