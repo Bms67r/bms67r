@@ -12,10 +12,14 @@ Assignment 2<br>
  
  Students need to be able to:
  
- - View active assignments
+ - View active assignments 
  - Have a class portal to view a course overview and active assignment list
  - submit programming solution to the specified assignment
  - view the grade given on a specific assignment
+ 
+ entities: student <br>
+ attributes: first name, lastname, username, pawprint, password, studentID, Year, email
+ 
  
  Teaching Assistants need to be able to:
  
@@ -24,6 +28,9 @@ Assignment 2<br>
  - Post grades to specific students on their solution
  - Provide comments while grading an assignment
  
+ entities: TA <br>
+ attributes: first name, lastname, username, pawprint, password, studentID, Year, TA ID, Section#, email
+ 
  Instructors need to be able to:
  - Complete the same requirements as the tv
  - manage course resouces on course portal
@@ -31,6 +38,9 @@ Assignment 2<br>
  - add and change due dates
  - view class sections
  - view all individuals connected to the class, all students and TA's
+ 
+ entities: Instructor <br>
+ attributes: first name, lastname, username, password, studentID, Instructor ID, Section#, email, phone number
  
  # Constraints (Non-Functional recquirements):
  
