@@ -10,9 +10,15 @@ def test_login():
 	user = getUser()
 	pswd = getPass()
 
-	#user = getUserFAIL()
-        #pswd = getPassFAIL()
-
 	assert user != ""
 	assert pswd != ""
 
+def test_login_Fail():
+
+	print("\nchecking if student is enrolled in course database... ")
+
+	user = getUserFAIL()
+	pswd = getPassFAIL()
+
+	assert user != ""
+	assert pswd != ""
