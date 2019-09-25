@@ -3,7 +3,7 @@ import pytest
 
 def test_login():
 	
-	print("\nchecking if student is enrolled in course database... ")
+	print("\nchecking if username and password is in system database... ")
 
 	#add FAIL to the end of the functions to do fail condition
 
@@ -15,7 +15,7 @@ def test_login():
 
 def test_login_Fail():
 
-	print("\nchecking if student is enrolled in course database... ")
+	print("\nchecking if username and password is in system database... ")
 
 	user = getUserFAIL()
 	pswd = getPassFAIL()
