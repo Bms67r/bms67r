@@ -20,14 +20,14 @@ We were instructed to make a system that could read and display the data that wa
  - Back-end will need to efficiently communicate with front end
  - System will need to be viewable by users on the internet 
  - Navigate to different endpoint data by clicking on page elements
- - different page for crucial endpoint data
+ - Different page for crucial endpoint data
 
 ### Non-Functional Requirements
 
  - UI will need to be easy to use and clearly display Augur data to the user
  - System is accessible across major web browsers
- - web page is secured for user reassurance 
- - user cannot see where data is read from for data hiding purposes
+ - Web page is secured for user reassurance 
+ - User cannot see where data is read from for data hiding purposes
  - Data is displayed using graphical and dynamic features of a web app
  - Reliability: system must be accessible any time a user needs the data.
  
@@ -44,9 +44,58 @@ We were instructed to make a system that could read and display the data that wa
 - Provided Augur API endpoints to retrieve data
 - A web server to host and display the project
   - Amazon AWS
-  - Github.op
+  - Github.io
+  
+  ### Purchased Components
+  - Potentially an Amazon AWS hosting server
+  - Many of the web resources and frameworks are free/open source. We can take advantage of those free resources (stated in the design constraint) available for us
+  
+  ### Interfaces
+   The project interface will be built using web technology, so it will be hosted on a web server/hosting site for distribution and the user interface can be accessed on the user end from the user's native web browser
   
   
   ## Use Case Diagrams and Descriptions
   
- 
+ <img src= "https://github.com/Bms67r/bms67r/blob/master/Assignment8/UseCases/home-UseCase.JPG" alt= "Use Case">
+<br>
+
+## Use Case One Description
+
+**Title:** Augur Repo group display page <br>
+
+**Description:** This page of our assignment allows you to see the repo groups in a graphical layout, and select which group to view <br>
+
+**Triggers:** Simply enter the website to click on the home/repo groups button <br>
+
+**Actors:** Users of this website and the administrators of the Augur data system <br>
+
+**Main Success Scenario (Goals):** The main goal is for the user to pick a repo group to learn more about it, and move on to selecting a repo in that group <br>
+
+**Failed End Condition:** If the endpoint is empty or the API data is not loaded correctly <br>
+
+**Steps for Execution:**
+1. Enter site
+2. Wait for page to load data from Augur
+3. Select navigation path or desired repo group
+
+<img src= "https://github.com/Bms67r/bms67r/blob/master/Assignment8/UseCases/repo-UseCase.JPG" alt= "Use Case">
+<br>
+
+## Use Case Two Description
+
+**Title:** Augur repo group detail/repo selector page <br>
+
+**Description:** This page of our assignment allows you to see details about the repo group, and select repos within it <br>
+
+**Triggers:** Choosing a repo group on the previous page <br>
+
+**Actors:** Users of this website and the administrators of the Augur data system <br>
+
+**Main Success Scenario (Goals):** The main goal is for the user to read the detailed information provided, and select a repo to get more information specifically about that repo <br>
+
+**Failed End Condition:** If the endpoint is empty or the API data is not loaded correctly <br>
+
+**Steps for Execution:**
+1. Select a repo group on the previous page
+2. Wait for page to load data from API and render it on the view
+3. Select navigation path or desired repo
